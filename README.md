@@ -58,8 +58,7 @@ The torrent file is a bencoded file with the following structure
 | Field | Type | Desc |
 | ----- | ---- | ---- |
 | name | String | the name of the directory in which to store all the files. This is purely advisory. |
-| files | files struct | a list of dictionaries, one for each file. Each dictionary in this list contains the following keys:
-|
+| files | files struct | a list of dictionaries, one for each file. Each dictionary in this list contains the following keys:|
 
 **files struct**
 

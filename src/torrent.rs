@@ -30,4 +30,10 @@ pub struct Torrent {
     pub info: Info,
     #[serde(default)]
     pub announce: Option<String>,
+    #[serde(default)]
+    comment: Option<String>,
+    #[serde(default,rename = "created by")]
+    created_by: Option<String>,
+    #[serde(default)]
+    encoding: Option<String>,
 }
