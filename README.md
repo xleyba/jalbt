@@ -14,8 +14,11 @@ The idea is to do everything by myself and avoid the use of crates as far as pos
 ## Base Documentation
 
 [BitTorrent specification](https://wiki.theory.org/index.php/BitTorrentSpecification)
+
 [BitTorrent BEP15](http://www.bittorrent.org/beps/bep_0015.html)
+
 [Blog article explaining how it works](https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html)
+
 
 ## Theory
 
