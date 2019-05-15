@@ -37,19 +37,24 @@ The torrent file is a bencoded file with the following structure
 
 
 **Info strcuture**
+
 | Field | Type | Desc |
 | ----- | ---- | ---- |
 | piece length | u64  |  number of bytes in each piece |
 | pieces | ByteBuf | string consisting of the concatenation of all 20-byte SHA1 hash values, one per piece (byte string, i.e. not urlencoded) |
 
+
 **If is a sinlge file**
+
 | Field | Type | Desc |
 | ----- | ---- | ---- |
 | name | String | file name |
 | length | u64 | length of the file in bytes |
 | md5sum | String | (**optional**) a 32-character hexadecimal string corresponding to the MD5 sum of the file. This is not used by BitTorrent at all, but it is included by some programs for greater compatibility. |
 
+
 **If is a multiple file**
+
 | Field | Type | Desc |
 | ----- | ---- | ---- |
 | name | String | the name of the directory in which to store all the files. This is purely advisory. |
@@ -57,6 +62,7 @@ The torrent file is a bencoded file with the following structure
 |
 
 **files struct**
+
 | Field | Type | Desc |
 | ----- | ---- | ---- |
 | length | u64 | length of the file in bytes |
