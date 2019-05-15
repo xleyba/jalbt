@@ -3,5 +3,11 @@ name = "jalbt"
 version = "0.1.0"
 authors = ["xleyba <xleyba@users.noreply.github.com>"]
 edition = "2018"
+publish = false
 
 [dependencies]
+serde = "1.0.91"
+serde_bencode = "0.2.0"
+serde_derive = "1.0.91"
+serde_bytes = "0.11.1"
+
